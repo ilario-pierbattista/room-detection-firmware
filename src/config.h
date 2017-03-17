@@ -6,7 +6,7 @@
 #define APIO_DONGLES_PINOCCIO_CONFIG_H
 
 // Indirizzo della scheda
-#define DONGLE_ADDRESS 0x03
+#define DONGLE_ADDRESS 0x01
 
 // Indirizzo del coordinatore
 #define COORDINATOR_ADDRESS 0x01
