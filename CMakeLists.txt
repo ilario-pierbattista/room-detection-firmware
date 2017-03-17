@@ -3,10 +3,6 @@ project(apio_dongles_pinoccio)
 
 include(CMakeListsPrivate.txt)
 
-file(GLOB_RECURSE fakesrc *.*)
-add_executable(fake ${fakesrc})
-include_directories(lib/lwm)
-
 add_custom_target(
     PLATFORMIO_BUILD ALL
     COMMAND ${PLATFORMIO_CMD} -f -c clion run

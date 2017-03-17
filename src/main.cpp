@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <Wire.h>
-#include "lwm.h";
+#include "lwm.h"
 #include "lwm/sys/sys.h"
 #include "lwm/nwk/nwk.h"
 #include "config.h"
@@ -188,7 +188,7 @@ void ping_coordinator_ack (NWK_DataReq_t *ind) {
 }
 
 void debug_bytes_to_hex_digest (char *dest, uint8_t *msg, size_t size) {
-    sprintf(dest, "");
+    dest[0] = '\0';
     for (size_t i = 0; i < size; i++) {
         sprintf(dest, "%s 0x%02X", dest, msg[i]);
     }
