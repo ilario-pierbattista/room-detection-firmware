@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{927FFC49-D6EF-56C3-11E5-4D3A89EF9343}") = "ZigBit_ATmega1281_Rf230", "ZigBit_ATmega1281_Rf230.cproj", "{0BEEE24A-28EC-5888-F3CF-7F89DE565FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BEEE24A-28EC-5888-F3CF-7F89DE565FD3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0BEEE24A-28EC-5888-F3CF-7F89DE565FD3}.Debug|AVR.Build.0 = Debug|AVR
+		{0BEEE24A-28EC-5888-F3CF-7F89DE565FD3}.Release|AVR.ActiveCfg = Release|AVR
+		{0BEEE24A-28EC-5888-F3CF-7F89DE565FD3}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

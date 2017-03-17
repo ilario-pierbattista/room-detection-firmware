@@ -3,9 +3,9 @@ project(apio_dongles_pinoccio)
 
 include(CMakeListsPrivate.txt)
 
-file(GLOB_RECURSE fakesrc *.*)
+file(GLOB_RECURSE fakesrc lib/*.*)
 add_executable(fake ${fakesrc})
-include_directories(lib/Pinoccio lib/Pinoccio/src)
+include_directories(lib/QueueArray lib/MemoryFree lib/lwm)
 
 add_custom_target(
     PLATFORMIO_BUILD ALL

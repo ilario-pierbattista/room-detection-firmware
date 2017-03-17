@@ -27,6 +27,148 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="fake">
+				<Option output="/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/fake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DF_CPU=16000000L"/>
+					<Add option="-DPLATFORMIO=30201"/>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add option="-DARDUINO_PINOCCIO"/>
+					<Add option="-D__PROG_TYPES_COMPAT__"/>
+					<Add option="-DHAL_ATMEGA256RFR2"/>
+					<Add option="-DARDUINO=10617"/>
+					<Add option="-D__AVR_ATmega256RFR2__"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/cores/arduino"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/variants/pinoccio"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/EEPROM/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Esplora/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Ethernet/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Firmata"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Firmata/utility"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/GSM/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/HID/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Keyboard/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/LiquidCrystal/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Mouse/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/RobotIRremote/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Robot_Control/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Robot_Motor/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SD/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SPI/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SPI1/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Scheduler/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Servo/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SpacebrewYun/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Stepper/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/TFT/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Temboo/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/USBHost/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/WiFi/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire1/src"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 fake"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fake/fast">
+				<Option output="/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/fake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DF_CPU=16000000L"/>
+					<Add option="-DPLATFORMIO=30201"/>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add option="-DARDUINO_PINOCCIO"/>
+					<Add option="-D__PROG_TYPES_COMPAT__"/>
+					<Add option="-DHAL_ATMEGA256RFR2"/>
+					<Add option="-DARDUINO=10617"/>
+					<Add option="-D__AVR_ATmega256RFR2__"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/cores/arduino"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/variants/pinoccio"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/EEPROM/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Esplora/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Ethernet/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Firmata"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Firmata/utility"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/GSM/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/HID/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Keyboard/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/LiquidCrystal/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Mouse/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/RobotIRremote/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Robot_Control/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Robot_Motor/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SD/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SPI/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SPI1/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Scheduler/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Servo/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/SpacebrewYun/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Stepper/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/TFT/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Temboo/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/USBHost/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/WiFi/src"/>
+					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire1/src"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 fake/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="PLATFORMIO_BUILD">
 				<Option working_dir="/home/ilario/Projects/apio_dongles_pinoccio/cmake-build-debug"/>
 				<Option type="4"/>
@@ -129,14 +271,16 @@
 					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add option="-DARDUINO_PINOCCIO"/>
 					<Add option="-D__PROG_TYPES_COMPAT__"/>
+					<Add option="-DHAL_ATMEGA256RFR2"/>
 					<Add option="-DARDUINO=10617"/>
 					<Add option="-D__AVR_ATmega256RFR2__"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/cores/arduino"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/variants/pinoccio"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire/src"/>
-					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/src"/>
-					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/Pinoccio/src"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
@@ -169,6 +313,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/avr/include"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -197,14 +342,16 @@
 					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add option="-DARDUINO_PINOCCIO"/>
 					<Add option="-D__PROG_TYPES_COMPAT__"/>
+					<Add option="-DHAL_ATMEGA256RFR2"/>
 					<Add option="-DARDUINO=10617"/>
 					<Add option="-D__AVR_ATmega256RFR2__"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/cores/arduino"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/variants/pinoccio"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Wire/src"/>
-					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/src"/>
-					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/Pinoccio/src"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
 					<Add directory="/home/ilario/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
@@ -237,6 +384,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/avr/include"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -254,6 +402,183 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/.git">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/.gitignore">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/MemoryFree.cpp">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/MemoryFree.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/examples/FreeMemory/FreeMemory.pde">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray/Examples/ManageString/ManageString.ino">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray/QueueArray.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/QueueArray/keywords.txt">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/applypatch-msg.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/commit-msg.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/post-update.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/pre-applypatch.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/pre-commit.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/pre-push.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/pre-rebase.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/pre-receive.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/prepare-commit-msg.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/hooks/update.sample">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/objects/pack/pack-e30effa26eb99e50087850fe0cccb6b6af3a686f.idx">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/.git/objects/pack/pack-e30effa26eb99e50087850fe0cccb6b6af3a686f.pack">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/README.md">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/config.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/examples/NWK_Ping/NWK_Ping.ino">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/library.properties">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/license.txt">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/hal/hal.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/hal/halTimer.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwk.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwk.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkCommand.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkDataReq.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkDataReq.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkFrame.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkFrame.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkGroup.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkGroup.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRoute.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRoute.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRouteDiscovery.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRouteDiscovery.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRx.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkRx.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkSecurity.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkSecurity.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkTx.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/nwk/nwkTx.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/phy/atmegarfr2.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/phy/phy.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/phy/phy.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sys.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sys.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysConfig.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysEncrypt.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysEncrypt.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysTimer.c">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysTimer.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysTypes.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/readme.txt">
+			<Option target="fake"/>
+		</Unit>
 		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/src/config.h">
 			<Option target="apio_dongles_pinoccio"/>
 		</Unit>
