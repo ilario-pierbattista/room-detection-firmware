@@ -5,7 +5,8 @@ include(CMakeListsPrivate.txt)
 
 file(GLOB_RECURSE fakesrc lib/*.*)
 add_executable(fake ${fakesrc})
-include_directories(lib/QueueArray lib/MemoryFree lib/lwm/src)
+include_directories(lib/QueueArray lib/MemoryFree lib/lwm/src
+        lib/HashMap)
 
 add_custom_target(
     PLATFORMIO_BUILD ALL

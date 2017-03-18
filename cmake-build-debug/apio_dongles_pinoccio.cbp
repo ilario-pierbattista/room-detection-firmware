@@ -82,6 +82,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -153,6 +154,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -314,6 +316,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -385,6 +388,7 @@
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/home/ilario/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src"/>
+					<Add directory="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
@@ -402,6 +406,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap/Examples/HelloHashMap/HelloHashMap.pde">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap/HashMap.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/HashMap/keywords.txt">
+			<Option target="fake"/>
+		</Unit>
 		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/MemoryFree/.git">
 			<Option target="fake"/>
 		</Unit>
@@ -574,6 +587,9 @@
 			<Option target="fake"/>
 		</Unit>
 		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm/src/lwm/sys/sysTypes.h">
+			<Option target="fake"/>
+		</Unit>
+		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/lwm_config.h">
 			<Option target="fake"/>
 		</Unit>
 		<Unit filename="/home/ilario/Projects/apio_dongles_pinoccio/lib/readme.txt">
